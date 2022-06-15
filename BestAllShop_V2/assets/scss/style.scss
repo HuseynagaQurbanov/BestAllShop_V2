@@ -1,0 +1,13 @@
+@import "components/responsive";
+@import "components/variables";
+@import "components/header";
+
+*{
+    font-family: $primary-font-regular;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none !important; 
+}

@@ -1,0 +1,184 @@
+#top-header{
+    background: linear-gradient(90deg, #4F12CF 10.28%, #C91396 100%);
+    height: 40px;
+
+    .top-header-left-wrap{
+        padding: 4px 0px 4px 0px;
+        display: flex;
+
+        .top-header-nav{
+            padding: 4px 0px 4px 0px;
+            height: 32px;
+
+            .top-header-navigation{
+
+            }
+        }
+
+        .sell-product{
+            width: 163px;
+            border-radius: 17px;
+            padding: 4px 16px 4px 16px;
+            background-color: $white;
+            margin: 0;
+
+            a{
+                height: 24px;
+                width: 131px;
+                font-family: $primary-font-medium;
+                color: $third-900;
+                line-height: 24px;
+                font-size: 14px;
+            }
+        }
+
+        .discount-coupon{
+            margin: 0 8px 0 8px;
+            height: 32px;
+            width: 132px;
+            padding: 4px 16px 4px 16px;
+            
+            a{
+                height: 24px;
+                width: 100px;
+                font-size: 14px;
+                line-height: 24px;
+                font-family: $primary-font-medium;
+                color: $third-50;
+            }
+        }
+
+        .help-nav{
+            margin: 0 8px 0 8px;
+            height: 32px;
+            width: 110px;
+            padding: 4px 8px 4px 8px;
+
+            a{
+                height: 24px;
+                width: 94px;
+                font-size: 14px;
+                line-height: 24px;
+                font-family: $primary-font-medium;
+                color: $third-50;
+            }
+        }
+    }
+
+    .top-header-right-wrap{
+        .lang-wrap{
+            width: 97px;
+            .lang-txt{
+                padding: 8px 7px 8px 0;
+                margin: 0;
+                color: $white;
+            }
+
+            span{
+                padding: 12px 4px 12px 8px;
+                color: $white;
+            }
+
+            .down-icon{
+                padding: 17px 10px 15px 0;
+                font-size: 7px;
+            }
+        }
+
+        .currency-wrap{
+            width: 64px;
+            .currency-txt{
+                padding: 8px 7px 8px 10px;
+                margin: 0;
+                color: $white;
+            }
+
+            .down-icon{
+                padding: 17px 8px 15px 0;
+                font-size: 7px;
+                color: $white;
+            }
+        }
+    }
+}
+
+#header{
+    .header-left-side{
+        padding: 20px 0 20px 0;
+        .logo-side{
+            padding-right: 40px;
+            .logo{
+                width: 210px;
+                height: 48px;
+            }
+        }
+        
+        .search-bar-wrap{
+            width: 100%;
+            padding-left: 40px;
+            form{
+                .search{
+                    border: 1px solid #E6ECFA;
+                    border-radius: 6px 0px 0px 6px;
+
+                    .dropdown-menu-wrap{
+                    
+                        .dropdown{
+                            padding: 11px 16px 11px 16px;
+                            .dropdown-txt{
+                                color: $third-700;
+                                font-size: 14px;
+                                line-height: 24px;
+                                width: 104px;
+                                margin: 0px;
+                            }
+    
+                            span{
+                                font-size: 7px;
+                                padding: 8px;
+                                color: $third-700;
+                            }
+    
+                            &::after{
+                                content: "";
+                                width: 1px;
+                                height: 24px;
+                                background-color: $third-400;
+                                margin-left: 8px;
+                            }
+                        }
+                    }
+    
+                    .search-bar{
+                        input{
+                            border: none;
+                            height: 100%;
+                            width: 445px;
+
+                            &::placeholder{
+                                color: $third-500;
+                                font-size: 14px;
+                            }
+
+                            &:focus-visible{
+                                outline: none;
+                            }
+                        }
+                    }
+                }
+                
+                .search-btn{
+                    .search-button{
+                        color: $white;
+                        font-family: $primary-font-medium;
+                        padding: 12px 34px 12px 34px;
+                        background-color: $primary-color;
+                        border-radius: 0px 6px 6px 0px;
+                        border: none;
+                    }
+                }
+            }
+        }
+    }
+    
+}

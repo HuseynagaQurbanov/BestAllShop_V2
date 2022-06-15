@@ -1,0 +1,29 @@
+@font-face {
+    font-family: sf-pro-display-regular;
+    src: url("/assets/fonts/font/SF-Pro-Display-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: sf-pro-display-medium;
+    src: url("/assets/fonts/font/SF-Pro-Display-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: sf-pro-display-bold;
+    src: url("/assets/fonts/font/SF-Pro-Display-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: montserrat-regular;
+    src: url("/assets/fonts/font/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: montserrat-medium;
+    src: url("/assets/fonts/font/Montserrat-Medium.ttf");
+}
+
+@font-face {
+    font-family: montserrat-bold;
+    src: url("/assets/fonts/font/Montserrat-Bold.ttf");
+}
